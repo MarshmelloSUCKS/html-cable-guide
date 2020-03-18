@@ -10,11 +10,14 @@ body {
 }
 
 .header {
+    border-width: 7px;
     border-bottom-style: solid;
     border-left-style: solid;
     border-right-style: solid;
     background-color: #0044ff;
-    border-color: rgb(7, 50, 167);
+    border-bottom-color: rgb(19, 63, 184);
+    border-left-color: rgb(18, 48, 131);
+    border-right-color: rgb(17, 47, 129);
     font-size: 36px;    
     color: rgb(204, 191, 14);
     text-align: center;
@@ -39,6 +42,7 @@ margin: 0px 25px 0px 25px;
 }
 
 .channel-number {
+    border-width: 7px;
     border-style: solid;
     border-left-color: #0237c9;
     border-top-color: #0234be;
@@ -58,6 +62,7 @@ margin: 0px 25px 0px 25px;
 }
 
 .channel-content-half {
+    border-width: 7px;
     border-style: solid;
     border-left-color: #0237c9;
     border-top-color: #0234be;
@@ -76,6 +81,7 @@ margin: 0px 25px 0px 25px;
     line-height: 45px;
 }
 .channel-content {
+    border-width: 7px;
     border-style: solid;
     border-left-color: #0237c9;
     border-top-color: #0234be;
@@ -95,12 +101,15 @@ margin: 0px 25px 0px 25px;
 }
 
 .footer {
+    border-width: 7px;
     border-top-style: solid;
     border-left-style: solid;
     border-right-style: solid;
     background-color: #0044ff;
     padding-bottom: 5px;
-    border-color: rgb(7, 50, 167);
+    border-top-color: rgb(19, 63, 184);
+    border-left-color: rgb(18, 48, 131);
+    border-right-color: rgb(17, 47, 129);    
     font-size: 26px;
     color: #ccbf0e;
     line-height: 20px;    
