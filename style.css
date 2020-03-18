@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'block';
+    src: url('dos.ttf')
+    format('truetype')
+}
+
+body {
+    background-color: #011e6e;
+    font-family: sans-serif;
+}
+
+.header {
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: #0044ff;
+    border-color: rgb(7, 50, 167);
+    font-size: 36px;    
+    color: rgb(204, 191, 14);
+    text-align: center;
+    line-height: 0px;
+    padding-top: 5px;
+    font-family: 'block', sans-serif;
+}
+.header-time {
+    float: right;
+padding: 0px 25px 0px 0px;
+}
+
+.guide-box {
+    top: 6px;
+    overflow: hidden;
+   
+}
+
+.channel-bar {
+    overflow: hidden;
+margin: 0px 25px 0px 25px;
+}
+
+.channel-number {
+    border-style: solid;
+    border-left-color: #0237c9;
+    border-top-color: #0234be;
+    border-bottom-color: #032685;
+    border-right-color: #032685;
+    background: rgb(51, 75, 179);
+    font-family: 'block', sans-serif;
+    color: rgb(204, 191, 14);
+    float: left;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 5px;
+    font-size: 24px;
+    height: 50px;
+    width: 127px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.channel-content-half {
+    border-style: solid;
+    border-left-color: #0237c9;
+    border-top-color: #0234be;
+    border-bottom-color: #032685;
+    border-right-color: #032685;
+    background: rgb(51, 75, 179);
+    font-family: 'block', sans-serif;
+    color: rgb(204, 191, 14);
+    float: left;
+    overflow: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 1px;
+    font-size: 24px;
+    height: 50px;
+    width: 38%;
+    line-height: 45px;
+}
+.channel-content {
+    border-style: solid;
+    border-left-color: #0237c9;
+    border-top-color: #0234be;
+    border-bottom-color: #032685;
+    border-right-color: #032685;
+    background: rgb(51, 75, 179);
+    font-family: 'block', sans-serif;
+    color: rgb(204, 191, 14);
+    float: left;
+    overflow: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 1px;
+    font-size: 24px;
+    height: 50px;
+    width: 79%;
+    line-height: 45px;
+}
+
+.footer {
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: #0044ff;
+    padding-bottom: 5px;
+    border-color: rgb(7, 50, 167);
+    font-size: 26px;
+    color: #ccbf0e;
+    line-height: 20px;    
+    font-family: 'block', sans-serif;
+}
+
+a {
+    color: #ccbf0e;
+}
