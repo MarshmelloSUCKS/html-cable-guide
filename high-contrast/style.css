@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'block';
+    src: url('dos.ttf')
+    format('truetype')
+}
+
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.header {
+    border-width: 7px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: #313131;
+    border-bottom-color: rgb(141, 141, 141);
+    border-left-color: rgb(197, 197, 197);
+    border-right-color: rgb(197, 197, 197);
+    font-size: 36px;    
+    color: #ffffff;
+    text-align: center;
+    line-height: 0px;
+    padding-top: 20px;
+    font-family: 'block', sans-serif;
+}
+.header-time {
+    float: right;
+padding: 0px 25px 0px 0px;
+}
+
+.guide-box {
+    top: 6px;
+    overflow: hidden;
+   
+}
+
+.channel-bar {
+    overflow: hidden;
+margin: 0px 25px 0px 25px;
+}
+
+.channel-number {
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: #cfcfcf;
+    border-top-color: #cfcfcf;
+    border-bottom-color: #a3a3a3;
+    border-right-color: #a3a3a3;
+    background: rgb(54, 54, 54);
+    font-family: 'block', sans-serif;
+    color: #ffffff;
+    float: left;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 5px;
+    font-size: 24px;
+    height: 50px;
+    width: 120px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.channel-content-half {
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: #cfcfcf;
+    border-top-color: #cfcfcf;
+    border-bottom-color: #a3a3a3;
+    border-right-color: #a3a3a3;
+    background: rgb(54, 54, 54);
+    font-family: 'block', sans-serif;
+    color: #ffffff;
+    float: left;
+    overflow: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 1px;
+    font-size: 24px;
+    height: 50px;
+    width: 38%;
+    line-height: 45px;
+}
+.channel-content {
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: #cfcfcf;
+    border-top-color: #cfcfcf;
+    border-bottom-color: #a3a3a3;
+    border-right-color: #a3a3a3;
+    background: rgb(54, 54, 54);
+    font-family: 'block', sans-serif;
+    color: #ffffff;
+    float: left;
+    overflow: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 1px 2px 1px;
+    font-size: 24px;
+    height: 50px;
+    width: 79%;
+    line-height: 48px;
+}
+
+.footer {
+    border-width: 7px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: #313131;
+    padding-bottom: 5px;
+    border-top-color: rgb(141, 141, 141);
+    border-left-color: rgb(197, 197, 197);
+    border-right-color: rgb(197, 197, 197);    
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 20px;    
+    font-family: 'block', sans-serif;
+}
+
+a {
+    color: #ccbf0e;
+}
