@@ -119,3 +119,25 @@ margin: 0px 25px 0px 25px;
 a {
     color: #ccbf0e;
 }
+
+.ad {
+    border-width: 7px;
+    border-style: solid;
+    border-left-color: #4879ff;
+    border-top-color: #4879ff;
+    border-bottom-color: #3b65c0;
+    border-right-color: #3454bd;
+    background: rgb(0, 60, 226);
+    font-family: 'block', sans-serif;
+    color: #e2d73d;
+    overflow: auto;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 31px 20px 31px;
+    font-size: 24px;
+    width: 89%
+}
+
+.ad .title {
+    font-size: 32px;
+}
