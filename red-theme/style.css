@@ -5,10 +5,14 @@
 }
 
 body {
-    background-color: #530000;
+    background-color: #000000;
     font-family: sans-serif;
 }
-
+.content {
+    background-color: #530000;
+    width: 1024px;
+    margin: auto;
+}
 .header {
     border-width: 7px;
     border-bottom-style: solid;
@@ -22,8 +26,10 @@ body {
     color: #e2d73d;
     text-align: center;
     line-height: 0px;
-    padding-top: 20px;
     font-family: 'block', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
 }
 .header-time {
     float: right;
@@ -38,7 +44,7 @@ padding: 0px 25px 0px 0px;
 
 .channel-bar {
     overflow: hidden;
-margin: 0px 25px 0px 25px;
+margin: 0px 35px 0px 35px;
 }
 
 .channel-number {
@@ -114,6 +120,8 @@ margin: 0px 25px 0px 25px;
     color: #e2d73d;
     line-height: 20px;    
     font-family: 'block', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
