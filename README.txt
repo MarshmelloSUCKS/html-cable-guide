@@ -43,6 +43,12 @@ the guide, use the program block that fits into the guide.
 
     the label should have the channel on line 1, and the name on line 2.
 
+    if you wish, you may insert a notice using the commented <div class="ad">
+element. uncomment this element, and edit the text with your own information.
+
+    finally, edit the footer text with your own information. the November 2nd,
+2025 forecast for Sioux City serves as a demo.
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                                     t o - d o
 - import guide data from a data.json file
