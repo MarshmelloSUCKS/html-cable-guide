@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'title';
+    src: url('title.ttf')
+    format('truetype')
+}
+@font-face {
+    font-family: 'row';
+    src: url('row.ttf')
+    format('truetype')
+}
+
+body {
+    background-color: #000000;
+    font-family: 'title', sans-serif;
+    color: #ffffff;
+    height: 480px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.content {
+    background: rgb(191,191,191);
+    background: linear-gradient(315deg, rgba(191,191,191,1) 0%, rgba(228,228,228,1) 30%, rgba(191,191,191,1) 100%);
+    width: 720px;
+    height: 480px;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: none;
+    overflow: hidden;
+}
+div.header {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-style: solid;
+    background: rgb(143,0,0);
+    background: linear-gradient(313deg, rgba(143,0,0,1) 0%, rgba(201,2,2,1) 30%, rgba(142,0,0,1) 100%);
+    padding-top: 16px;
+    z-index: 100;
+    position: relative;
+}
+
+#SystemName{
+    width: 100%;
+    font-size: 28px;    
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+}
+.program-times {
+    width: 100%;
+    margin-top: -5px;
+} 
+#ProgramTimes {
+    margin-left: 15%;
+    display: block;
+}
+#ProgramTimes td {
+    font-size: 14px;    
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    width: 29%;
+    display: inline-block;
+}
+
+marquee.guide {
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+table.channel-bar {
+    width: 672px;
+    margin: auto;
+    display: block;
+}
+
+.label {
+    width: 110px;
+    height: 38px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    background: #7a0000;
+    background: linear-gradient(135deg,rgba(122, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 60%, rgba(122, 0, 0, 1) 100%);
+    font-family: 'row', sans-serif;
+    font-size: 18px;
+    line-height: 105%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.program-30 {
+    width: 168px;
+    height: 38px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #f7f7f7;
+    background: #7a0000;
+    background: linear-gradient(135deg,rgba(122, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 60%, rgba(122, 0, 0, 1) 100%);
+    font-family: 'row', sans-serif;
+    font-size: 18px;
+    line-height: 105%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.program-60 {
+    width: 351px;
+    height: 38px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #f7f7f7;
+    background: #7a0000;
+    background: linear-gradient(135deg,rgba(122, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 60%, rgba(122, 0, 0, 1) 100%);
+    font-family: 'row', sans-serif;
+    font-size: 18px;
+    line-height: 105%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+.program-90 {
+    width: 534px;
+    height: 38px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #f7f7f7;
+    background: #7a0000;
+    background: linear-gradient(135deg,rgba(122, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 60%, rgba(122, 0, 0, 1) 100%);
+    font-family: 'row', sans-serif;
+    font-size: 18px;
+    line-height: 105%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header-time {
+    float: right;
+margin: 0px 100px 2px 0px;
+font-size: 14px;
+}
+
+.ad {
+    width: 666px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    color: #f7f7f7;
+    background: #7a0000;
+    background: linear-gradient(135deg,rgba(122, 0, 0, 1) 0%, rgba(156, 0, 0, 1) 60%, rgba(122, 0, 0, 1) 100%);
+    font-family: 'row', sans-serif;
+    overflow: auto;
+    margin: 2px auto;
+    line-height: 140%;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ad h1 {
+    font-size: 24px;
+    margin: 4px;
+}
+.ad p {
+    font-size: 18px;
+    margin: 4px;
+}
+
+.footer {
+    border-width: 4px;
+    border-color: #FFFFFF;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-style: solid;
+    background: rgb(143,0,0);
+    background: linear-gradient(313deg, rgba(143,0,0,1) 0%, rgba(201,2,2,1) 30%, rgba(142,0,0,1) 100%);
+    padding-bottom: 1px;   
+    font-size: 18px;
+    z-index: 100%;
+    position: relative;
+    height: 70px;
+    width: 100%;
+}
