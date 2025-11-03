@@ -10,7 +10,8 @@ is inspired by 2000's cable guides (think TV Guide). this guide is intended for
 720x480 NTSC, either through a Raspberry Pi or HDMI to composite/RF adapter.
 
     while automation of this guide should be possible, as of now, the only way
-to get data into the guide is to manually edit the index.html file.
+to get data into the guide is to manually edit the index.html file. feel free to
+fork this repository if you wish to add automated listing data.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                         e d i t i n g   t h e   i n d e x
