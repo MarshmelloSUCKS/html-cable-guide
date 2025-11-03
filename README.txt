@@ -15,7 +15,8 @@ to get data into the guide is to manually edit the index.html file.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                         e d i t i n g   t h e   i n d e x
     this section tells you how to edit the index.html, and should serve as a
-reference for those who wish to automate this guide.
+reference for those who wish to automate this guide. the guide is set with TV
+listings for the Sioux City, IA TV market as a demo.
 
     to start, change the name of your cable system. this is set by the
 <p id="SystemName"> element.
